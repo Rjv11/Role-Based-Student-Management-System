@@ -10,7 +10,7 @@ if (isset($_POST['submit'])) {
     $cpass = md5($_POST['cpassword']);
     $user_type = "student";
 
-    // USN pattern for PHP validation for College
+    // USN pattern for PHP validation for College (DSU)
     $usn_pattern = "/^[ENG]{3}\d{2}[A-Z]{2}\d{4}$/";
 
     // Check if email already exists
